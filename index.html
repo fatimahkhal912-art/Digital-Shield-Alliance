@@ -3,23 +3,44 @@
 <head>
     <title>DSA</title>
     <style>
+    html, body {
+        height: 100%; /* Ensures the background fills the screen */
+        margin: 0;    /* Removes default browser margin */
+    }
+
     body {
-    height: 100%; /* Ensures the background fills the screen */
-    margin: 0;    /* Removes default browser margin */
-}
+        text-align: justify;
+        font-family: 'VT323', monospace;
+        padding: 40px; /* keep your spacing */
 
-body {
-    text-align: justify;
-    font-family: Arial, sans-serif;
-    padding: 40px; /* keep your spacing */
+        /* Background image */
+        background-image: url("background.jpg"); /* Make sure the file is exactly named this */
+        background-size: cover;                  /* stretches to fill screen */
+        background-position: center;             /* centers the image */
+        background-repeat: no-repeat;            /* prevents tiling */
+        background-attachment: fixed;            /* keeps image fixed while scrolling */
+    }
 
-    /* Background image */
-    background-image: url("background.jpg"); /* Make sure the file is exactly named this */
-    background-size: cover;                  /* stretches to fill screen */
-    background-position: center;             /* centers the image */
-    background-repeat: no-repeat;            /* prevents tiling */
-    background-attachment: fixed;            /* optional: keeps image fixed while scrolling */
-}
+    h2 {color: #333; text-align: center;}
+    h3 {font-weight: normal; line-height: 1.5;}
+    textarea {
+        width: 100%;
+        min-height: 200px;      /* larger height for writing */
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        font-family: inherit;
+        font-size: 14px;
+        margin-top: 12px;
+        margin-bottom: 20px;    /* space between textareas */
+        resize: vertical;       /* user can resize taller if needed */
+    }
+    ul {
+        line-height: 1.6;
+    }
+    .section {
+        margin-top: 40px;
+    }
     </style>
 </head>
 <body>
@@ -28,31 +49,31 @@ body {
 <hr>
 
 <h3>
-Welcome to everyone and anyone who found this website, a place made for you. Here, you can freely share your thoughts, emotions, and experiences without fear or judgment. We know that cyberbullying and AI-generated videos can deeply hurt. They can make you feel powerless, misunderstood, or even alone. But you’re not alone here. This is a space where your voice matters, your feelings are valid, and your story deserves to be heard. Together, we can bring awareness, support each other, and start the journey toward healing. This website is all about having victims of AI generated content, to have a safe space to talk about their feelings, without fear of judgement. All victims can choose to stay anonymous, therfore having the ability to give their side of the story, without the fake version being known or coming in the way.
+Welcome to everyone and anyone who found this website, a place made for you. Here, you can freely share your thoughts, emotions, and experiences without fear or judgment. We know that cyberbullying and AI-generated videos can deeply hurt. They can make you feel powerless, misunderstood, or even alone. But you’re not alone here. This is a space where your voice matters, your feelings are valid, and your story deserves to be heard. Together, we can bring awareness, support each other, and start the journey toward healing. This website is all about having victims of AI generated content, to have a safe space to talk about their feelings, without fear of judgement. All victims can choose to stay anonymous, therefore having the ability to give their side of the story, without the fake version being known or coming in the way.
 </h3>
 
 <hr>
 
 <h2><b>Saudi Arabia Mental Health Crisis Hotlines</b></h2>
 <ul>
-<h4><li>If you or someone you know is experiencing a mental health crisis, you call this 24/7 helpline <b>920033360</b></li></h4><br>
-<h4><li>You can call <b>937</b> Saudi Arabia's, Ministry of Health, mental-health and crisis helpline.</li></h4><br>
-<h4><li>If there is immediate danger (harm to self or someone else) call the emergency number <b>999</b></li></h4><br>
+<li>If you or someone you know is experiencing a mental health crisis, you can call this 24/7 helpline <b>920033360</b></li>
+<li>You can call <b>937</b> Saudi Arabia's Ministry of Health mental-health and crisis helpline.</li>
+<li>If there is immediate danger (harm to self or someone else) call the emergency number <b>999</b></li>
 </ul>
 
 <div class="section">
     <hr>
     <h2><b>Understanding Mental Health 💭</b></h2>
     <ul>
-        <li><b>Mental health</b> affects how we think, feel, and act in everyday life.</li><br>
-        <li>It’s not just about avoiding illness — it’s about keeping a balanced and positive mind.</li><br>
+        <li><b>Mental health</b> affects how we think, feel, and act in everyday life.</li>
+        <li>It’s not just about avoiding illness — it’s about keeping a balanced and positive mind.</li>
         <li><b>Things that affect mental health:</b>
             <ul>
                 <li>Biological: genetics or brain chemistry</li>
                 <li>Psychological: personality, coping style, past trauma</li>
                 <li>Social: family, school, friends, and environment</li>
             </ul>
-        </li><br>
+        </li>
         <li><b>Ways to care for your mind:</b>
             <ul>
                 <li>Talk about your feelings</li>
@@ -66,9 +87,13 @@ Welcome to everyone and anyone who found this website, a place made for you. Her
 
 <div class="section">
     <hr>
-    <h2><b>Share Your Experience (Anonymously)</b></h2>
-    <p>Write about how you feel or what you’ve been through.</p>
-    <textarea placeholder="Write your experience here..."></textarea>
+    <h2><b>Share Your Experiences (Anonymously)</b></h2>
+    <p>Write about how you feel or what you’ve been through. You don’t need to use your real name.</p>
+
+    <!-- Three large textareas -->
+    <textarea placeholder="Experience 1..."></textarea>
+    <textarea placeholder="Experience 2..."></textarea>
+    <textarea placeholder="Experience 3..."></textarea>
 </div>
 
 </body>
